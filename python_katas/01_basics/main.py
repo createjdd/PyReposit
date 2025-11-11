@@ -16,13 +16,13 @@ from __future__ import annotations
 
 
 def demo_numbers_strings():
-    x = 7
-    y = 3
-    add = x + y
-    div = x / y
-    floor_div = x // y
-    mod = x % y
-    power = x ** y
+    x = 7 # 整数
+    y = 3 # 浮点数
+    add = x + y # 加法
+    div = x / y # 除法
+    floor_div = x // y # 整除
+    mod = x % y # 取余
+    power = x ** y # 幂
     s = "hello"
     t = "world"
     join = s + " " + t
@@ -54,6 +54,30 @@ def comparisons(a: int, b: int) -> dict[str, bool]:
     }
 
 
+def demo_data_types():
+    """
+    演示常见内置数据类型及其类型名。
+    返回:
+      - data: 各类型的示例值
+      - types: 各示例值对应的类型名（字符串）
+    """
+    data = {
+        "int": 42,
+        "float": 3.14,
+        "bool_true": True,
+        "bool_false": False,
+        "none": None,
+        "str": "hello",
+        "list": [1, 2, 3],
+        "tuple": (1, 2, 3),
+        "set": {1, 2, 3},
+        "dict": {"a": 1, "b": 2},
+        "bytes": b"hi",
+    }
+    types = {k: type(v).__name__ for k, v in data.items()}
+    return data, types
+
+
 def run_self_check():
     add, div, floor_div, mod, power, join, f = demo_numbers_strings()
     assert add == 10
@@ -68,6 +92,11 @@ def run_self_check():
 
     comp = comparisons(3, 5)
     assert comp["lt"] and not comp["gt"] and comp["ne"]
+
+    data, types = demo_data_types()
+    # 简单校验类型名存在
+    for key in ["int", "float", "bool_true", "none", "str", "list", "tuple", "set", "dict", "bytes"]:
+        assert key in data and key in types
 
     print("01_basics ✅ 自检通过。你可以修改 TODO 再运行观察差异。")
 
