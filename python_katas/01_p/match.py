@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# 模式匹配（Python 3.10+）
+
 command = "start"
 
 match command:

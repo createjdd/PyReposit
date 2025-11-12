@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # Python 常见数据类型示例
 
 # 1. 数字类型（Number）

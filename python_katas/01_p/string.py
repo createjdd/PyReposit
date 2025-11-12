@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# 字符串操作
+
 s = "Hello, Python!"
 
 print(s[0])       # 取第一个字符 → 'H'

@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# 递归函数
+
 def factorial(n):
     if n == 10:               # 递归终止条件
         return 10

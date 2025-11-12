@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# 切片操作
+
 text = "Python语言"
 
 print(text[0:6])     # 从索引0到5 → 'Python'

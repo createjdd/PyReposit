@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# 偏函数
+
 from functools import partial
 
 def power(base, exp):

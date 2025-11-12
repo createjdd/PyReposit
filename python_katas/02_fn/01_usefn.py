@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# 函数基础
+
 def say_hello():
     print("你好，Python！")
 

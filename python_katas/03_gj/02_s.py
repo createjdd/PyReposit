@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# 列表推导式和高阶函数
+
 # 生成 0~9 的平方列表
 squares = [x**2 for x in range(10)]
 print(squares)

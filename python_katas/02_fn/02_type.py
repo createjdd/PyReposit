@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # 数值类型之间的转换
 a = 3.7
 b = int(a)        # 浮点 -> 整数（去掉小数部分）

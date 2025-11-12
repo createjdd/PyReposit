@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# 闭包和装饰器
+
 def lazy_sum(*args):
     def sum():
         ax = 0
