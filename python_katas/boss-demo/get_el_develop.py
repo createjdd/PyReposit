@@ -751,7 +751,6 @@ class BossSpider:
         logger.info(f"数据已保存到 {filename}")
         logger.info(f"共 {len(df)} 条记录")
 
-
 def main():
     """主函数"""
     start_url = "https://www.zhipin.com/web/geek/jobs?query=%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91&city=101010100&position=101401"
