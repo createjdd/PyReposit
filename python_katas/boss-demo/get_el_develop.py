@@ -178,7 +178,7 @@ class BossSpider:
             # 等待关键元素加载
             try:
                 WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, ".job-sec, .job-detail, [class*='detail'], body"))
+                    EC.presence_of_element_located((By.CSS_SELECTOR, ".job-sec, .job-detail, [class*='detail'], body")) # 等待页面加载 等待页面加载完成
                 )
             except TimeoutException:
                 logger.warning("页面加载超时")

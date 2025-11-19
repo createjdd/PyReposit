@@ -95,11 +95,11 @@ conda create -n myproject python=3.9.18 # 指定精确版本号
 
 # 1. 创建 Python 3.9 环境并安装包
 
-conda create -n project1 python=3.9 numpy pandas
+conda create -n p3-9 python=3.9 numpy pandas
 
 # 2. 激活环境
 
-conda activate project1
+conda activate p3-9
 
 # 3. 验证 Python 版本
 
